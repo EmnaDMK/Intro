@@ -14,6 +14,7 @@ namespace Intro
 	{
 		public CarsGallery ()
 		{
+            //comment
 			InitializeComponent ();
 
             Car1.Source = ImageSource.FromFile("car1.png");
