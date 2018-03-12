@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Intro.CarouselPageExample">
+
+    <CarouselPage.Children>
+        <ContentPage Title="First Slide" BackgroundColor="Fuchsia">
+            <Label Text="The Content of first slide" VerticalOptions="Center" HorizontalOptions="Center"></Label>           
+        </ContentPage>
+        <ContentPage Title="Second Slide" BackgroundColor="Lime">
+            <Label Text="The Content of Second slide" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+        </ContentPage>
+        <ContentPage Title="Last Slide" BackgroundColor="Navy">
+            <Label Text="The Content of Last slide" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+        </ContentPage>
+    </CarouselPage.Children>
+    
+</CarouselPage>

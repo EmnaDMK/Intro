@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Intro"
+             x:Class="Intro.MainPage">
+    <StackLayout VerticalOptions="Center">
+	<Label Text="Salamo Alaikom" FontSize="Large"
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" TextColor="DarkSlateGray" FontAttributes="Bold" />
+    <Entry Placeholder="Enter your name"  VerticalOptions="Center" x:Name="txtName"></Entry>
+        <Button Text="Dispaly Message" Clicked="Display"></Button>
+        <Label  x:Name="lblMessage"></Label>
+    </StackLayout>
+</ContentPage>

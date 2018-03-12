@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Intro.LayoutOptions">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout BackgroundColor="White" HeightRequest="300">
+                <Label Text="Start" FontSize="20" BackgroundColor="Purple" HorizontalOptions="Start"></Label>
+                <Label Text="Start" FontSize="20" BackgroundColor="Purple" HorizontalOptions="Center"></Label>
+                <Label Text="Start" FontSize="20" BackgroundColor="Purple" HorizontalOptions="End"></Label>
+                <Label Text="Start" FontSize="20" BackgroundColor="Purple" HorizontalOptions="Fill"></Label>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Intro.MasterDetailPageExample">
+
+    <MasterDetailPage.Master>
+        <ContentPage Title="Master" BackgroundColor="Purple">
+            <Label Text="This is the master" TextColor="Red"></Label>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <ContentPage Title="Detail" BackgroundColor="Silver">
+            <Label Text="This is the Detail"></Label>            
+        </ContentPage>
+    </MasterDetailPage.Detail>
+  
+</MasterDetailPage>

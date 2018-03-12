@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Intro.TabbedPageExample">
+
+    <TabbedPage.Children>
+        <ContentPage Title="Home" BackgroundColor="Purple">
+            <Label Text="The Home Tab" VerticalOptions="Center" HorizontalOptions="Center" FontSize="22"></Label>
+        </ContentPage>
+        <ContentPage Title="Contact" BackgroundColor="Yellow">
+            <Label Text="The Contact Tab" VerticalOptions="Center" HorizontalOptions="Center" FontSize="22"></Label>
+        </ContentPage>
+
+        <ContentPage Title="About" BackgroundColor="Green">
+            <Label Text="The About Tab" VerticalOptions="Center" HorizontalOptions="Center" FontSize="22"></Label>
+        </ContentPage>
+
+    </TabbedPage.Children>
+    
+    
+</TabbedPage>
